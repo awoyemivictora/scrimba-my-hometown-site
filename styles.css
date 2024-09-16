@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("images/ilesha.jpeg");
+  background-size: cover;
+  color: white;
+  margin: 0;
+  height: 400px;
+}
+
+#visit {
+  background-color: #1d3557;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 40px;
+}
+
+#sub {
+  background-color: #457b9d;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#vib {
+    text-decoration: underline;
+    color: hwb(0 95% 5%);
+}
+
+#vib:hover {
+    text-decoration: underline;
+    color: #bdedae;
+}
+
+#sec2 {
+  background: linear-gradient(#f1faee, #bdedae);
+  margin: 0;
+  padding: 10px 10px;
+}
+
+#to-do {
+  font-size: 34px;
+  padding: 20px;
+  margin: 20px 0 10px 0;
+  margin-bottom: 60px;
+}
+
+#three-activities {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.city-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.city-heading {
+  font-size: 24px;
+  text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    padding: 40px 60px;
+    border-radius: 20px;
+    background-color: #a8dadc;
+    /* margin-right: auto;
+    margin-left: auto; */
+}
+
+#guide {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 0 20px 0 0;
+}
